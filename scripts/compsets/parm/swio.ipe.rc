@@ -37,6 +37,7 @@ import_fields::
 #
 #  <import_field_name>    [<output_variable_name>]
 output_fields::
+    O_plus_density
 ::
 
 #
@@ -141,7 +142,8 @@ output_grid_type: latlon
 # from the 'output_grid_level_values' table (km)
 #
 #output_grid_size: 90 91 183
-output_grid_size: 90 91 0
+#output_grid_size: 90 91 0
+output_grid_size: 360 181 0
 #
 # Minimin and maximum values of vertical coordinate (km)
 # Used if #levels > 0
